@@ -1,0 +1,5 @@
+*.wav
+.venv
+build
+samples
+*.egg-info
