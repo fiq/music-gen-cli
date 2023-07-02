@@ -28,6 +28,7 @@ python ./music-gen-cli -k piano -k cello -k piano -k classical -f classical-musi
 
 ```
 
+
 # Requires CUDACUDACUDa
 
 - Tested on a 4GB GTX 1650 Super and NVIDIA 4070
@@ -74,3 +75,8 @@ As not `audiocraft` is not avaiable for via nix pkgs, you should then:
 pip install . --user
 ```
 
+## EXAMPLE AUDIO
+
+
+- [metal-out.wav](./examples/metal-out.wav)
+- [classical-out.wav](./examples/classical-out.wav)
