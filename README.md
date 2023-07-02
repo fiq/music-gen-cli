@@ -5,8 +5,13 @@ A cli wrapper around Meta's Audiocraft with tuning for smaller GPUs
 # USAGE
 
 ```
-music-gen-cli -k keyword1 ([-k keywordn]+) -f [fileprefix|fileprefix] (-p)
+music-gen-cli -k keyword1 ([-k keywordn]+) -f [fileprefix|fileprefix] (-p) (-m [small(_default_)|medium|melody|large)
 ```
+
+- -k _keyword_ |  --keyword=_keyword_ - provide multiple prompts for music generation. eg. 'speed metal'
+- -f __prefix__ | --fileprefix=__prefix__ - provide a prefix for the generated file
+- -m __model__ | --modelname=__model__ - provide the audiocraft model (small|medium|melody|large)
+- -p  - Plays the generated composition from your audio device when generated
 
 ## EXAMPLES
 
