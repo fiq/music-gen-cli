@@ -31,9 +31,15 @@ python ./music-gen-cli -k piano -k cello -k piano -k classical -f classical-musi
 
 # Requires CUDACUDACUDa
 
-- Tested on a 4GB GTX 1650 Super and NVIDIA 4070
+## On a small/low VRAM/OLD GPU
+
+- Tested on a 4GB GTX 1650 Super 
 - Uses Audiocraft's small model
-- Keen samples on a 4GB card to under 15 seconds
+- Keep samples on a 4GB card to under 15 seconds
+
+## On a modern/much VRAM/NEW (2023) GPU
+
+- Tested on RTX4090 with medium model
 
 # Building
 
